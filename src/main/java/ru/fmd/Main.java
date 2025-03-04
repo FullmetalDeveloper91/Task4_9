@@ -23,9 +23,9 @@ public class Main {
         System.out.printf("Результат вычитания a и b: %.1f\n",calculator.calc(a,b));
 
         calculator.setOperation(new Multiplier());
-        System.out.printf("Результат сложения a и b: %.1f\n",calculator.calc(a,b));
+        System.out.printf("Результат умножения a и b: %.1f\n",calculator.calc(a,b));
 
         calculator.setOperation(new Divider());
-        System.out.printf("Результат сложения a и b: %.1f\n", calculator.calc(a, b));
+        System.out.printf("Результат деления a и b: %.1f\n", calculator.calc(a, b));
     }
 }
