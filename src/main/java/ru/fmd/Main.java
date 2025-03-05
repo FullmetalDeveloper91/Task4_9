@@ -19,7 +19,7 @@ public class Main {
         Calculator calculator = new Calculator(new Adder());
         System.out.printf("Результат сложения a и b: %.1f\n",calculator.calc(a,b));
 
-        calculator.setOperation(new Substractor());
+        calculator.setOperation(new Subtractor());
         System.out.printf("Результат вычитания a и b: %.1f\n",calculator.calc(a,b));
 
         calculator.setOperation(new Multiplier());
